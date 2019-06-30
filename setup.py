@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="SMSONAR",
-    version="0.0.1",
+    version="0.0.2",
     author="Mina Gabriel",
     author_email="minamaged113@gmail.com",
     description="Sound Metrics SONARs files software development kit \
