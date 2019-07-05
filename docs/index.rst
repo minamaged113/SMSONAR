@@ -5,10 +5,11 @@
 
 Welcome to SMSONAR's documentation!
 ===================================
-
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   
+   LICENSE.rst
+   
 
 
 
