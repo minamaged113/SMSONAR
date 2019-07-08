@@ -17,6 +17,7 @@ jobs: # A basic unit of work in a run
           command: |
             pytest --cov=SMSONAR
             coverage report
+            sudo pip install --user codecov
             codecov -t $CIRCLE_CI_SMSONAR_REPO_TOKEN
       - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
           path: test-results
