@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.getcwd())
 import pytest 
-import SMSONAR._sonarFile as SF
+import SMSONAR._SonarFile as SF
 
 
 def test_test():
